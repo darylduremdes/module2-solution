@@ -1,114 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-
-    <style>
-    /*** BASE STYLES ***/
-        body {
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-        }
-
-        h1 {
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-        }
-
-        #p1 {
-            background-color: #d0edd0;
-
-        }
-
-        #p2 {
-            background-color: #d0edd0;            
-        }
-
-        #p3 {
-            background-color: #d0edd0; 
-        }
-
-        #p4 {
-            background-color: #d0edd0; 
-        }
-
-    /*** DESKTOP ***/
-        @media (min-width: 992px){
-            #title {
-                width: 100%;
-            }
-            #p1 {
-                width: 30%;
-            }
-            #p2 {
-                width: 30%;
-            }
-            #p3 {
-                width: 30%;
-            }
-         }
-
-    /*** TABLET ***/
-        @media (min-width: 768px) and (max-width: 991px){
-            #title {
-                width: 100%;
-            }
-            #p1 {
-                width: 45%;
-            }
-            #p2 {
-                width: 45%;
-            }
-            #p3 {
-                width: 100%;
-            }
-         }
-
-    /*** PHONE ***/
-    @media (max-width: 767px){
-            #title {
-                width: 100%;
-            }
-            #p1 {
-                width: 100%;
-            }
-            #p2 {
-                width: 100%;
-            }
-            #p3 {
-                width: 100%;
-            }
-         }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/styles.css">
 
     <title>Module 2 Coding Assignment</title>
-
 </head>
 <body>
-        <!-- ************** HEADING ************** -->
-    <div id="title">
-        <h1>Peer-graded Assignment: Module 2 Coding Assignment</h1>
-    </div>
+    <!-- ************** HEADING ************** -->
+    <h1>Module 2 Coding Assignment</h1>
+
+    <div class="row">
 
         <!-- ************** SECTION 1 ************** -->
-    <div id="p1">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero numquam cumque, odio in ipsa aliquid! Culpa et ea debitis, dolor saepe expedita! Ex, tempore iusto suscipit blanditiis veritatis magni odio.</p>
-    </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <section class="section1">
+                <h2>Section 1</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero numquam cumque, odio in ipsa aliquid! Culpa et ea debitis, dolor saepe expedita! Ex, tempore iusto suscipit blanditiis veritatis magni odio.</p>
+            </section>
+        </div>
 
         <!-- ************** SECTION 2 ************** -->
-    <div id="p2">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nisi laboriosam laborum eum dolore illo odit animi harum esse alias inventore, quas vero libero consequuntur expedita? Aperiam ut possimus quae?</p>
-    </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <section class="section2">
+                <h2>Section 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nisi laboriosam laborum eum dolore illo odit animi harum esse alias inventore, quas vero libero consequuntur expedita? Aperiam ut possimus quae?</p>
+            </section>
+        </div>
 
         <!-- ************** SECTION 3 ************** -->
-    <div id="p3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deserunt fugiat dolore officiis ad doloribus suscipit modi tempora voluptatum, quos cumque quo odit cupiditate sequi consectetur repellendus voluptatem tenetur mollitia.</p>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <section class="section3">
+                <h2>Section 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet deserunt fugiat dolore officiis ad doloribus suscipit modi tempora voluptatum, quos cumque quo odit cupiditate sequi consectetur repellendus voluptatem tenetur mollitia.</p>
+            </section>
+        </div>
     </div>
-
-
-
-    <p></p>
 </body>
 </html>
